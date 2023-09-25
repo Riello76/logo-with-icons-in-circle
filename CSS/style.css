@@ -1,0 +1,186 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+#mainDiv {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: wrap;
+    flex-direction: row-reverse;
+}
+
+#header {
+    align-self: flex-end;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: black;
+    animation: riello76 6s infinite;
+    -webkit-text-stroke: 1px red;
+}
+
+@keyframes riello76 {
+    50% {
+        text-shadow: 0px 0px 30px red
+    }
+}
+
+#circle {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px rgb(131, 10, 10);
+    border-radius: 150px;
+    width: 200px;
+    height: 200px;
+    background-image: url(https://static-cdn.jtvnw.net/jtv_user_pictures/02f86450-f10f-40db-bae6-e8ddbcb0609b-profile_image-300x300.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.menubutt1 {
+
+    transform: rotate(3deg) translate(88px) rotate(-3deg);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border-bottom: transparent;
+    background-image: url(https://cdn.icon-icons.com/icons2/285/PNG/256/social_facebook_button_blue_256_30648.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.menubutt2 {
+
+    transform: rotate(22deg) translate(126px) rotate(65deg);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border-bottom: transparent;
+    background-size: 100%;
+    background-image: url(https://i.pinimg.com/originals/b5/28/ca/b528caf79d37050cf377aec16143805c.png);
+    background-repeat: no-repeat;
+}
+
+.menubutt3 {
+
+    transform: rotate(270deg) translate(-119px) rotate(80deg);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: transparent;
+    order: 4;
+    background-size: 100%;
+    background-image: url(https://cdn.icon-icons.com/icons2/3041/PNG/512/tiktok_logo_icon_189233.png);
+    background-repeat: no-repeat;
+
+}
+
+.menubutt4 {
+
+    transform: rotate(262deg) translate(-165px) rotate(100deg);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border-bottom: transparent;
+    background-size: 100%;
+    background-image: url(https://www.icons101.com/icon_png/size_256/id_78915/twitter.png);
+    background-repeat: no-repeat;
+}
+
+.menubutt5 {
+
+    transform: rotate(303deg) translate(-140px) rotate(55deg);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border-bottom: transparent;
+    background-size: 100%;
+    background-image: url(https://static-00.iconduck.com/assets.00/youtube-icon-256x256-03w3z0nj.png);
+    background-repeat: no-repeat;
+}
+
+.menubutt6 {
+    transform: rotate(335deg) translate(-114px) rotate(25deg);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border-bottom: transparent;
+    background-size: 100%;
+    background-image: url(https://static-00.iconduck.com/assets.00/twitch-icon-256x256-rge2ruij.png);
+    background-repeat: no-repeat;
+}
+
+.butsdw {
+    background-color: black;
+    box-shadow: 0px 0px 5px red;
+    color: white;
+    animation: btmn 3s infinite;
+}
+
+.butsdw:hover {
+    box-shadow: 0px 0px 20px white;
+    animation: infinite;
+
+}
+
+@keyframes btmn {
+    50% {
+        box-shadow: 0px 0px 20px red;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #header {
+        width: 65%;
+    }
+
+    #circle {
+        background-size: 40px;
+        position: relative;
+        bottom: 30px;
+        background-position-y: -3px;
+        height: 60px;
+        width: 250px;
+    }
+
+    .menubutt1 {
+        position: relative;
+        right: 70px;
+        top: 15px;
+    }
+
+    .menubutt2 {
+        position: relative;
+        right: 95px;
+        bottom: 27px;
+    }
+
+    .menubutt3 {
+        position: relative;
+        bottom: 100px;
+        right: 65px;
+    }
+
+    .menubutt4 {
+        position: relative;
+        bottom: 144px;
+        left: 55px;
+    }
+
+    .menubutt5 {
+        position: relative;
+        left: 160px;
+        bottom: 98px;
+    }
+
+    .menubutt6 {
+        position: relative;
+        bottom: 29px;
+        left: 190px;
+    }
+}
